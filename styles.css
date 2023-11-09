@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  font-family: 'Dancing Script';
+  background: linear-gradient(to right, #000428, #004e92);
+}
+
+h1 {
+  font-size: 6rem;
+  color: #dbedf3;
+  
+  text-shadow: 5px 0 #00000083;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.q {
+  background-image: url("images/crash.png");
+}
+.w {
+  background-image: url("images/tom1.png");
+}
+.e {
+  background-image: url("images/tom2.png");
+}
+.r {
+  background-image: url("images/kick.png");
+}
+.t {
+  background-image: url("images/tom3.png");
+}
+.y {
+  background-image: url("images/tom4.png");
+}
+.u {
+  background-image: url("images/snare.png");
+}
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #b5b5b5;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid;
+  font-size: 5rem;
+  font-weight: 800;
+  color: #00df89;
+  text-shadow: 4px 0 #000000;
+  border-radius: 30px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
